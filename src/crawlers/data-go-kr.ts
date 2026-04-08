@@ -29,7 +29,7 @@ export class DataGoKrCrawler implements Crawler {
       // 자전거길 코스 목록 조회
       const listUrl = `${API_BASE}/bicycle/courseList?serviceKey=${encodeURIComponent(this.apiKey)}&numOfRows=100&pageNo=1&type=json`;
       const listResponse = await fetch(listUrl);
-      const listData = await listResponse.json();
+      const listData: any = await listResponse.json();
 
       const items = listData?.response?.body?.items?.item || [];
 

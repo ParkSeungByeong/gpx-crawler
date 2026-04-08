@@ -1,0 +1,303 @@
+[
+  {
+    "source": "bike-go-kr",
+    "filePath": "C:\\projects\\gpx-crawler\\.claude\\worktrees\\focused-sutherland\\data\\bike-go-kr_아라자전거길.gpx",
+    "originalUrl": "https://www.bike.go.kr/map/roadMap.do?roadSn=1",
+    "name": "아라자전거길",
+    "crawledAt": "2026-04-08T05:29:44.099Z"
+  },
+  {
+    "source": "bike-go-kr",
+    "filePath": "C:\\projects\\gpx-crawler\\.claude\\worktrees\\focused-sutherland\\data\\bike-go-kr_한강종주자전거길_서울구간_.gpx",
+    "originalUrl": "https://www.bike.go.kr/map/roadMap.do?roadSn=2",
+    "name": "한강종주자전거길(서울구간)",
+    "crawledAt": "2026-04-08T05:29:44.683Z"
+  },
+  {
+    "source": "bike-go-kr",
+    "filePath": "C:\\projects\\gpx-crawler\\.claude\\worktrees\\focused-sutherland\\data\\bike-go-kr_남한강자전거길.gpx",
+    "originalUrl": "https://www.bike.go.kr/map/roadMap.do?roadSn=3",
+    "name": "남한강자전거길",
+    "crawledAt": "2026-04-08T05:29:45.288Z"
+  },
+  {
+    "source": "bike-go-kr",
+    "filePath": "C:\\projects\\gpx-crawler\\.claude\\worktrees\\focused-sutherland\\data\\bike-go-kr_북한강_경춘선_자전거길.gpx",
+    "originalUrl": "https://www.bike.go.kr/map/roadMap.do?roadSn=4",
+    "name": "북한강(경춘선)자전거길",
+    "crawledAt": "2026-04-08T05:29:46.059Z"
+  },
+  {
+    "source": "bike-go-kr",
+    "filePath": "C:\\projects\\gpx-crawler\\.claude\\worktrees\\focused-sutherland\\data\\bike-go-kr_새재자전거길.gpx",
+    "originalUrl": "https://www.bike.go.kr/map/roadMap.do?roadSn=5",
+    "name": "새재자전거길",
+    "crawledAt": "2026-04-08T05:29:46.829Z"
+  },
+  {
+    "source": "bike-go-kr",
+    "filePath": "C:\\projects\\gpx-crawler\\.claude\\worktrees\\focused-sutherland\\data\\bike-go-kr_낙동강자전거길.gpx",
+    "originalUrl": "https://www.bike.go.kr/map/roadMap.do?roadSn=6",
+    "name": "낙동강자전거길",
+    "crawledAt": "2026-04-08T05:29:47.634Z"
+  },
+  {
+    "source": "bike-go-kr",
+    "filePath": "C:\\projects\\gpx-crawler\\.claude\\worktrees\\focused-sutherland\\data\\bike-go-kr_금강자전거길.gpx",
+    "originalUrl": "https://www.bike.go.kr/map/roadMap.do?roadSn=7",
+    "name": "금강자전거길",
+    "crawledAt": "2026-04-08T05:29:48.446Z"
+  },
+  {
+    "source": "bike-go-kr",
+    "filePath": "C:\\projects\\gpx-crawler\\.claude\\worktrees\\focused-sutherland\\data\\bike-go-kr_영산강자전거길.gpx",
+    "originalUrl": "https://www.bike.go.kr/map/roadMap.do?roadSn=8",
+    "name": "영산강자전거길",
+    "crawledAt": "2026-04-08T05:29:49.060Z"
+  },
+  {
+    "source": "bike-go-kr",
+    "filePath": "C:\\projects\\gpx-crawler\\.claude\\worktrees\\focused-sutherland\\data\\bike-go-kr_섬진강자전거길.gpx",
+    "originalUrl": "https://www.bike.go.kr/map/roadMap.do?roadSn=9",
+    "name": "섬진강자전거길",
+    "crawledAt": "2026-04-08T05:29:49.796Z"
+  },
+  {
+    "source": "bike-go-kr",
+    "filePath": "C:\\projects\\gpx-crawler\\.claude\\worktrees\\focused-sutherland\\data\\bike-go-kr_오천자전거길.gpx",
+    "originalUrl": "https://www.bike.go.kr/map/roadMap.do?roadSn=10",
+    "name": "오천자전거길",
+    "crawledAt": "2026-04-08T05:29:50.404Z"
+  },
+  {
+    "source": "bike-go-kr",
+    "filePath": "C:\\projects\\gpx-crawler\\.claude\\worktrees\\focused-sutherland\\data\\bike-go-kr_동해안자전거길_강원_.gpx",
+    "originalUrl": "https://www.bike.go.kr/map/roadMap.do?roadSn=11",
+    "name": "동해안자전거길(강원)",
+    "crawledAt": "2026-04-08T05:29:51.077Z"
+  },
+  {
+    "source": "bike-go-kr",
+    "filePath": "C:\\projects\\gpx-crawler\\.claude\\worktrees\\focused-sutherland\\data\\bike-go-kr_동해안자전거길_경북_.gpx",
+    "originalUrl": "https://www.bike.go.kr/map/roadMap.do?roadSn=12",
+    "name": "동해안자전거길(경북)",
+    "crawledAt": "2026-04-08T05:29:51.808Z"
+  },
+  {
+    "source": "bike-go-kr",
+    "filePath": "C:\\projects\\gpx-crawler\\.claude\\worktrees\\focused-sutherland\\data\\bike-go-kr_제주환상자전거길.gpx",
+    "originalUrl": "https://www.bike.go.kr/map/roadMap.do?roadSn=13",
+    "name": "제주환상자전거길",
+    "crawledAt": "2026-04-08T05:29:52.503Z"
+  },
+  {
+    "source": "bike-go-kr",
+    "filePath": "C:\\projects\\gpx-crawler\\.claude\\worktrees\\focused-sutherland\\data\\bike-go-kr_강릉_경포호_산소길.gpx",
+    "originalUrl": "https://www.bike.go.kr/map/roadMap.do?roadSn=14",
+    "name": "강릉 경포호 산소길",
+    "crawledAt": "2026-04-08T05:29:53.046Z"
+  },
+  {
+    "source": "bike-go-kr",
+    "filePath": "C:\\projects\\gpx-crawler\\.claude\\worktrees\\focused-sutherland\\data\\bike-go-kr_화천_파로호_100리_산소길.gpx",
+    "originalUrl": "https://www.bike.go.kr/map/roadMap.do?roadSn=15",
+    "name": "화천 파로호 100리 산소길",
+    "crawledAt": "2026-04-08T05:29:53.602Z"
+  },
+  {
+    "source": "bike-go-kr",
+    "filePath": "C:\\projects\\gpx-crawler\\.claude\\worktrees\\focused-sutherland\\data\\bike-go-kr_옹진_덕적도_자전거길.gpx",
+    "originalUrl": "https://www.bike.go.kr/map/roadMap.do?roadSn=16",
+    "name": "옹진 덕적도 자전거길",
+    "crawledAt": "2026-04-08T05:29:54.167Z"
+  },
+  {
+    "source": "bike-go-kr",
+    "filePath": "C:\\projects\\gpx-crawler\\.claude\\worktrees\\focused-sutherland\\data\\bike-go-kr_옥천_향수_100리길.gpx",
+    "originalUrl": "https://www.bike.go.kr/map/roadMap.do?roadSn=17",
+    "name": "옥천 향수 100리길",
+    "crawledAt": "2026-04-08T05:29:54.704Z"
+  },
+  {
+    "source": "bike-go-kr",
+    "filePath": "C:\\projects\\gpx-crawler\\.claude\\worktrees\\focused-sutherland\\data\\bike-go-kr_정읍_정읍천_자전거길.gpx",
+    "originalUrl": "https://www.bike.go.kr/map/roadMap.do?roadSn=18",
+    "name": "정읍 정읍천 자전거길",
+    "crawledAt": "2026-04-08T05:29:55.261Z"
+  },
+  {
+    "source": "bike-go-kr",
+    "filePath": "C:\\projects\\gpx-crawler\\.claude\\worktrees\\focused-sutherland\\data\\bike-go-kr_신안_증도_자전거섬.gpx",
+    "originalUrl": "https://www.bike.go.kr/map/roadMap.do?roadSn=19",
+    "name": "신안 증도 자전거섬",
+    "crawledAt": "2026-04-08T05:29:55.810Z"
+  },
+  {
+    "source": "bike-go-kr",
+    "filePath": "C:\\projects\\gpx-crawler\\.claude\\worktrees\\focused-sutherland\\data\\bike-go-kr_경주_역사탐방_자전거길.gpx",
+    "originalUrl": "https://www.bike.go.kr/map/roadMap.do?roadSn=20",
+    "name": "경주 역사탐방 자전거길",
+    "crawledAt": "2026-04-08T05:29:56.365Z"
+  },
+  {
+    "source": "bike-go-kr",
+    "filePath": "C:\\projects\\gpx-crawler\\.claude\\worktrees\\focused-sutherland\\data\\bike-go-kr_합천_황강_자전거길.gpx",
+    "originalUrl": "https://www.bike.go.kr/map/roadMap.do?roadSn=21",
+    "name": "합천 황강 자전거길",
+    "crawledAt": "2026-04-08T05:29:56.937Z"
+  },
+  {
+    "source": "bike-go-kr",
+    "filePath": "C:\\projects\\gpx-crawler\\.claude\\worktrees\\focused-sutherland\\data\\bike-go-kr_상주_낙동강_자전거길.gpx",
+    "originalUrl": "https://www.bike.go.kr/map/roadMap.do?roadSn=22",
+    "name": "상주 낙동강 자전거길",
+    "crawledAt": "2026-04-08T05:29:57.483Z"
+  },
+  {
+    "source": "bike-go-kr",
+    "filePath": "C:\\projects\\gpx-crawler\\.claude\\worktrees\\focused-sutherland\\data\\bike-go-kr_대구_팔공산_자전거길.gpx",
+    "originalUrl": "https://www.bike.go.kr/map/roadMap.do?roadSn=23",
+    "name": "대구 팔공산 자전거길",
+    "crawledAt": "2026-04-08T05:29:58.038Z"
+  },
+  {
+    "source": "bike-go-kr",
+    "filePath": "C:\\projects\\gpx-crawler\\.claude\\worktrees\\focused-sutherland\\data\\bike-go-kr_강화_갯벌_자전거길.gpx",
+    "originalUrl": "https://www.bike.go.kr/map/roadMap.do?roadSn=24",
+    "name": "강화 갯벌 자전거길",
+    "crawledAt": "2026-04-08T05:29:58.579Z"
+  },
+  {
+    "source": "bike-go-kr",
+    "filePath": "C:\\projects\\gpx-crawler\\.claude\\worktrees\\focused-sutherland\\data\\bike-go-kr_덕적도_갈맷길_자전거길.gpx",
+    "originalUrl": "https://www.bike.go.kr/map/roadMap.do?roadSn=25",
+    "name": "덕적도 갈맷길 자전거길",
+    "crawledAt": "2026-04-08T05:29:59.117Z"
+  },
+  {
+    "source": "bike-go-kr",
+    "filePath": "C:\\projects\\gpx-crawler\\.claude\\worktrees\\focused-sutherland\\data\\bike-go-kr_영흥도_십리포_자전거길.gpx",
+    "originalUrl": "https://www.bike.go.kr/map/roadMap.do?roadSn=26",
+    "name": "영흥도 십리포 자전거길",
+    "crawledAt": "2026-04-08T05:29:59.649Z"
+  },
+  {
+    "source": "bike-go-kr",
+    "filePath": "C:\\projects\\gpx-crawler\\.claude\\worktrees\\focused-sutherland\\data\\bike-go-kr_안산_대부도_자전거길.gpx",
+    "originalUrl": "https://www.bike.go.kr/map/roadMap.do?roadSn=27",
+    "name": "안산 대부도 자전거길",
+    "crawledAt": "2026-04-08T05:30:00.198Z"
+  },
+  {
+    "source": "bike-go-kr",
+    "filePath": "C:\\projects\\gpx-crawler\\.claude\\worktrees\\focused-sutherland\\data\\bike-go-kr_태안_안면도_자전거길.gpx",
+    "originalUrl": "https://www.bike.go.kr/map/roadMap.do?roadSn=28",
+    "name": "태안 안면도 자전거길",
+    "crawledAt": "2026-04-08T05:30:00.745Z"
+  },
+  {
+    "source": "bike-go-kr",
+    "filePath": "C:\\projects\\gpx-crawler\\.claude\\worktrees\\focused-sutherland\\data\\bike-go-kr_보령_원산도_자전거길.gpx",
+    "originalUrl": "https://www.bike.go.kr/map/roadMap.do?roadSn=29",
+    "name": "보령 원산도 자전거길",
+    "crawledAt": "2026-04-08T05:30:01.295Z"
+  },
+  {
+    "source": "bike-go-kr",
+    "filePath": "C:\\projects\\gpx-crawler\\.claude\\worktrees\\focused-sutherland\\data\\bike-go-kr_군산_선유도_자전거길.gpx",
+    "originalUrl": "https://www.bike.go.kr/map/roadMap.do?roadSn=30",
+    "name": "군산 선유도 자전거길",
+    "crawledAt": "2026-04-08T05:30:01.839Z"
+  },
+  {
+    "source": "bike-go-kr",
+    "filePath": "C:\\projects\\gpx-crawler\\.claude\\worktrees\\focused-sutherland\\data\\bike-go-kr_신안_자은도_자전거길.gpx",
+    "originalUrl": "https://www.bike.go.kr/map/roadMap.do?roadSn=31",
+    "name": "신안 자은도 자전거길",
+    "crawledAt": "2026-04-08T05:30:02.388Z"
+  },
+  {
+    "source": "bike-go-kr",
+    "filePath": "C:\\projects\\gpx-crawler\\.claude\\worktrees\\focused-sutherland\\data\\bike-go-kr_신안_증도_자전거길.gpx",
+    "originalUrl": "https://www.bike.go.kr/map/roadMap.do?roadSn=32",
+    "name": "신안 증도 자전거길",
+    "crawledAt": "2026-04-08T05:30:02.932Z"
+  },
+  {
+    "source": "bike-go-kr",
+    "filePath": "C:\\projects\\gpx-crawler\\.claude\\worktrees\\focused-sutherland\\data\\bike-go-kr_신안_임자도_자전거길.gpx",
+    "originalUrl": "https://www.bike.go.kr/map/roadMap.do?roadSn=33",
+    "name": "신안 임자도 자전거길",
+    "crawledAt": "2026-04-08T05:30:03.481Z"
+  },
+  {
+    "source": "bike-go-kr",
+    "filePath": "C:\\projects\\gpx-crawler\\.claude\\worktrees\\focused-sutherland\\data\\bike-go-kr_진도_자전거길.gpx",
+    "originalUrl": "https://www.bike.go.kr/map/roadMap.do?roadSn=34",
+    "name": "진도 자전거길",
+    "crawledAt": "2026-04-08T05:30:04.031Z"
+  },
+  {
+    "source": "bike-go-kr",
+    "filePath": "C:\\projects\\gpx-crawler\\.claude\\worktrees\\focused-sutherland\\data\\bike-go-kr_완도_청산도_자전거길.gpx",
+    "originalUrl": "https://www.bike.go.kr/map/roadMap.do?roadSn=35",
+    "name": "완도 청산도 자전거길",
+    "crawledAt": "2026-04-08T05:30:04.570Z"
+  },
+  {
+    "source": "bike-go-kr",
+    "filePath": "C:\\projects\\gpx-crawler\\.claude\\worktrees\\focused-sutherland\\data\\bike-go-kr_여수_거문도_자전거길.gpx",
+    "originalUrl": "https://www.bike.go.kr/map/roadMap.do?roadSn=36",
+    "name": "여수 거문도 자전거길",
+    "crawledAt": "2026-04-08T05:30:05.123Z"
+  },
+  {
+    "source": "bike-go-kr",
+    "filePath": "C:\\projects\\gpx-crawler\\.claude\\worktrees\\focused-sutherland\\data\\bike-go-kr_남해_자전거길.gpx",
+    "originalUrl": "https://www.bike.go.kr/map/roadMap.do?roadSn=39",
+    "name": "남해 자전거길",
+    "crawledAt": "2026-04-08T05:30:05.667Z"
+  },
+  {
+    "source": "bike-go-kr",
+    "filePath": "C:\\projects\\gpx-crawler\\.claude\\worktrees\\focused-sutherland\\data\\bike-go-kr_거제_자전거길.gpx",
+    "originalUrl": "https://www.bike.go.kr/map/roadMap.do?roadSn=41",
+    "name": "거제 자전거길",
+    "crawledAt": "2026-04-08T05:30:06.211Z"
+  },
+  {
+    "source": "bike-go-kr",
+    "filePath": "C:\\projects\\gpx-crawler\\.claude\\worktrees\\focused-sutherland\\data\\bike-go-kr_통영_한산도_자전거길.gpx",
+    "originalUrl": "https://www.bike.go.kr/map/roadMap.do?roadSn=42",
+    "name": "통영 한산도 자전거길",
+    "crawledAt": "2026-04-08T05:30:06.753Z"
+  },
+  {
+    "source": "bike-go-kr",
+    "filePath": "C:\\projects\\gpx-crawler\\.claude\\worktrees\\focused-sutherland\\data\\bike-go-kr_포항_구룡포_자전거길.gpx",
+    "originalUrl": "https://www.bike.go.kr/map/roadMap.do?roadSn=43",
+    "name": "포항 구룡포 자전거길",
+    "crawledAt": "2026-04-08T05:30:07.285Z"
+  },
+  {
+    "source": "bike-go-kr",
+    "filePath": "C:\\projects\\gpx-crawler\\.claude\\worktrees\\focused-sutherland\\data\\bike-go-kr_울릉도_자전거길.gpx",
+    "originalUrl": "https://www.bike.go.kr/map/roadMap.do?roadSn=44",
+    "name": "울릉도 자전거길",
+    "crawledAt": "2026-04-08T05:30:07.829Z"
+  },
+  {
+    "source": "bike-go-kr",
+    "filePath": "C:\\projects\\gpx-crawler\\.claude\\worktrees\\focused-sutherland\\data\\bike-go-kr_제주_우도_자전거길.gpx",
+    "originalUrl": "https://www.bike.go.kr/map/roadMap.do?roadSn=45",
+    "name": "제주 우도 자전거길",
+    "crawledAt": "2026-04-08T05:30:08.354Z"
+  },
+  {
+    "source": "bike-go-kr",
+    "filePath": "C:\\projects\\gpx-crawler\\.claude\\worktrees\\focused-sutherland\\data\\bike-go-kr_제주_가파도_자전거길.gpx",
+    "originalUrl": "https://www.bike.go.kr/map/roadMap.do?roadSn=46",
+    "name": "제주 가파도 자전거길",
+    "crawledAt": "2026-04-08T05:30:08.885Z"
+  }
+]

@@ -1,59 +1,80 @@
-import { createClient, SupabaseClient } from '@supabase/supabase-js';
 import * as fs from 'fs';
 import type { ParsedCourse, CourseRow } from '../types';
 
-let supabase: SupabaseClient | null = null;
+const SUPABASE_URL = process.env.SUPABASE_URL;
+const SUPABASE_KEY = process.env.SUPABASE_SERVICE_ROLE_KEY || process.env.SUPABASE_ANON_KEY;
 
-function getSupabase(): SupabaseClient {
-  if (!supabase) {
-    const url = process.env.SUPABASE_URL;
-    const key = process.env.SUPABASE_SERVICE_ROLE_KEY;
-
-    if (!url || !key) {
-      throw new Error(
-        'SUPABASE_URL과 SUPABASE_SERVICE_ROLE_KEY 환경변수가 필요합니다.'
-      );
-    }
-
-    supabase = createClient(url, key);
+/**
+ * Supabase REST API를 직접 호출하여 데이터 upsert
+ */
+async function supabaseRequest(
+  table: string,
+  data: Record<string, unknown>,
+): Promise<{ ok: boolean; error?: string }> {
+  if (!SUPABASE_URL || !SUPABASE_KEY) {
+    throw new Error(
+      'SUPABASE_URL과 SUPABASE_SERVICE_ROLE_KEY(또는 SUPABASE_ANON_KEY) 환경변수가 필요합니다.'
+    );
   }
-  return supabase;
+
+  const url = `${SUPABASE_URL}/rest/v1/${table}`;
+  const headers: Record<string, string> = {
+    'apikey': SUPABASE_KEY,
+    'Authorization': `Bearer ${SUPABASE_KEY}`,
+    'Content-Type': 'application/json',
+    'Prefer': 'resolution=merge-duplicates',
+  };
+
+  const response = await fetch(url, {
+    method: 'POST',
+    headers,
+    body: JSON.stringify(data),
+  });
+
+  if (!response.ok) {
+    const errorBody = await response.text();
+    return { ok: false, error: `${response.status}: ${errorBody}` };
+  }
+
+  return { ok: true };
+}
+
+/**
+ * ParsedCourse에서 시작/끝 지점 추출
+ */
+function getEndpoints(course: ParsedCourse): { start?: string; end?: string } {
+  if (course.trackPoints.length === 0) return {};
+  const first = course.trackPoints[0];
+  const last = course.trackPoints[course.trackPoints.length - 1];
+  return {
+    start: `POINT(${first.lon.toFixed(6)} ${first.lat.toFixed(6)})`,
+    end: `POINT(${last.lon.toFixed(6)} ${last.lat.toFixed(6)})`,
+  };
 }
 
 /**
  * 파싱된 코스 데이터를 Supabase courses 테이블에 업로드
  */
-export async function uploadCourse(course: ParsedCourse, gpxFilePath?: string): Promise<boolean> {
+export async function uploadCourse(course: ParsedCourse, _gpxFilePath?: string): Promise<boolean> {
   try {
-    const client = getSupabase();
+    const endpoints = getEndpoints(course);
 
     const row: CourseRow = {
       name: course.name,
-      description: course.description,
-      source: course.source,
-      source_url: course.sourceUrl,
-      coordinates: course.trackPoints.map((p) => [p.lon, p.lat]),
-      distance: Math.round(course.distance * 10) / 10,
-      elevation_gain: course.elevationGain,
-      elevation_loss: course.elevationLoss,
-      min_elevation: course.minElevation,
-      max_elevation: course.maxElevation,
+      description: course.description || `${course.source} - ${course.name}`,
       region: course.region,
       difficulty: course.difficulty,
+      category: course.source,
+      distance_km: Math.round(course.distance * 10) / 10,
+      elevation_gain_m: course.elevationGain,
+      start_point: endpoints.start,
+      end_point: endpoints.end,
     };
 
-    // 원본 GPX 데이터 첨부
-    if (gpxFilePath && fs.existsSync(gpxFilePath)) {
-      row.gpx_data = fs.readFileSync(gpxFilePath, 'utf-8');
-    }
+    const { ok, error } = await supabaseRequest('courses', row as any);
 
-    // upsert: source + name 기준 중복 방지
-    const { error } = await client
-      .from('courses')
-      .upsert(row, { onConflict: 'source,name' });
-
-    if (error) {
-      console.error(`[upload] 업로드 실패: ${course.name}`, error.message);
+    if (!ok) {
+      console.error(`[upload] 업로드 실패: ${course.name}`, error);
       return false;
     }
 

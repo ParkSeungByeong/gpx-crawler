@@ -45,19 +45,17 @@ export interface Crawler {
   crawl(): Promise<CrawlResult[]>;
 }
 
-/** Supabase courses 테이블 행 */
+/** Supabase courses 테이블 행 (실제 스키마) */
 export interface CourseRow {
   name: string;
   description?: string;
-  source: string;
-  source_url?: string;
-  coordinates: [number, number][]; // [lng, lat][]
-  distance: number;
-  elevation_gain?: number;
-  elevation_loss?: number;
-  min_elevation?: number;
-  max_elevation?: number;
   region?: string;
   difficulty?: string;
-  gpx_data?: string; // 원본 GPX XML
+  category?: string;
+  tags?: string[];
+  distance_km?: number;
+  elevation_gain_m?: number;
+  start_point?: string;
+  end_point?: string;
+  rating?: number;
 }
