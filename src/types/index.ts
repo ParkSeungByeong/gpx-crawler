@@ -45,17 +45,27 @@ export interface Crawler {
   crawl(): Promise<CrawlResult[]>;
 }
 
-/** Supabase courses 테이블 행 (실제 스키마) */
+/** courses 테이블 category enum */
+export type CourseCategory = 'river_trail' | 'coastal' | 'cross_country' | 'urban' | 'mountain' | 'leisure';
+
+/** courses 테이블 difficulty enum */
+export type CourseDifficulty = 'easy' | 'moderate' | 'hard' | 'expert';
+
+/** Supabase courses 테이블 행 (schema.sql 기준) */
 export interface CourseRow {
   name: string;
-  description?: string;
-  region?: string;
-  difficulty?: string;
-  category?: string;
-  tags?: string[];
-  distance_km?: number;
+  description: string;
+  region: string;
+  category: CourseCategory;
+  difficulty: CourseDifficulty;
+  distance_km: number;
   elevation_gain_m?: number;
-  start_point?: string;
-  end_point?: string;
-  rating?: number;
+  estimated_time_minutes?: number;
+  route_geometry?: string;   // WKT LINESTRING
+  route_geojson?: object;
+  start_point?: string;      // WKT POINT
+  end_point?: string;        // WKT POINT
+  tags?: string[];
+  is_official?: boolean;
+  thumbnail_url?: string;
 }
