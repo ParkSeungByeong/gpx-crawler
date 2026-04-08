@@ -1,0 +1,7 @@
+node_modules/
+dist/
+.env
+data/*.gpx
+data/*.xml
+*.log
+.DS_Store

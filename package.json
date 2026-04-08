@@ -1,0 +1,26 @@
+{
+  "name": "gpx-crawler",
+  "version": "1.0.0",
+  "description": "한국 자전거길 GPX 데이터 웹 크롤러 - Supabase 업로드",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "crawl": "tsx src/index.ts crawl",
+    "parse": "tsx src/index.ts parse",
+    "upload": "tsx src/index.ts upload",
+    "run": "tsx src/index.ts run",
+    "dev": "tsx src/index.ts"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.0",
+    "cheerio": "^1.0.0",
+    "dotenv": "^16.4.5",
+    "gpxparser": "^3.0.8",
+    "puppeteer": "^23.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.16.0",
+    "typescript": "^5.5.0"
+  }
+}
