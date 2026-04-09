@@ -1,0 +1,341 @@
+{
+  "crawledAt": "2026-04-09T02:25:30.101Z",
+  "summary": {
+    "totalAttempted": 41,
+    "updated": 36,
+    "noMatch": 5,
+    "fetchFailed": 0,
+    "updateFailed": 0,
+    "totalCoordinates": 52569
+  },
+  "details": [
+    {
+      "roadSn": 1,
+      "bikeGoKrName": "아라자전거길",
+      "dbName": "아라자전거길",
+      "dbId": "0429105d-51ce-4497-ab8c-6738ee409564",
+      "pointCount": 118,
+      "status": "updated"
+    },
+    {
+      "roadSn": 2,
+      "bikeGoKrName": "한강종주자전거길(서울구간)",
+      "dbName": "한강종주자전거길(서울구간)",
+      "dbId": "45cdf98f-dd44-4792-990d-bd9bdda9bc8c",
+      "pointCount": 877,
+      "status": "updated"
+    },
+    {
+      "roadSn": 3,
+      "bikeGoKrName": "남한강자전거길",
+      "dbName": "남한강자전거길",
+      "dbId": "409361a7-1469-425e-ad48-c95456dc532f",
+      "pointCount": 1450,
+      "status": "updated"
+    },
+    {
+      "roadSn": 4,
+      "bikeGoKrName": "새재자전거길",
+      "dbName": "새재자전거길",
+      "dbId": "38b759a5-2475-4e27-bac0-09c7d18cd016",
+      "pointCount": 5510,
+      "status": "updated"
+    },
+    {
+      "roadSn": 5,
+      "bikeGoKrName": "낙동강자전거길",
+      "dbName": "낙동강자전거길",
+      "dbId": "3dbb5234-25ea-43a9-82e6-25ff19fec044",
+      "pointCount": 5545,
+      "status": "updated"
+    },
+    {
+      "roadSn": 6,
+      "bikeGoKrName": "금강자전거길",
+      "dbName": "금강자전거길",
+      "dbId": "38f392e4-324e-4bc5-9c33-2ab4004a09d1",
+      "pointCount": 6944,
+      "status": "updated"
+    },
+    {
+      "roadSn": 7,
+      "bikeGoKrName": "영산강자전거길",
+      "dbName": "영산강자전거길",
+      "dbId": "91b92bc7-b608-4d8c-8107-480d3db1d272",
+      "pointCount": 8276,
+      "status": "updated"
+    },
+    {
+      "roadSn": 8,
+      "bikeGoKrName": "북한강(경춘선)자전거길",
+      "dbName": "북한강(경춘선)자전거길",
+      "dbId": "36342ee6-fad8-44eb-89bf-d0a8b065fb7f",
+      "pointCount": 1862,
+      "status": "updated"
+    },
+    {
+      "roadSn": 9,
+      "bikeGoKrName": "섬진강자전거길",
+      "dbName": "섬진강자전거길",
+      "dbId": "476fe42b-25f1-442d-9432-878ff00bff9e",
+      "pointCount": 4854,
+      "status": "updated"
+    },
+    {
+      "roadSn": 10,
+      "bikeGoKrName": "오천자전거길",
+      "dbName": "오천자전거길",
+      "dbId": "7c85be33-e1eb-4cab-b90c-ad99d0e2b956",
+      "pointCount": 1214,
+      "status": "updated"
+    },
+    {
+      "roadSn": 11,
+      "bikeGoKrName": "동해안자전거길(강원)",
+      "dbName": "동해안자전거길(강원)",
+      "dbId": "15e69936-232d-4164-aed4-1d8a76a2f236",
+      "pointCount": 3176,
+      "status": "updated"
+    },
+    {
+      "roadSn": 12,
+      "bikeGoKrName": "동해안자전거길(경북)",
+      "dbName": "동해안자전거길(경북)",
+      "dbId": "ca650fbd-1889-4c7a-8fad-4e0be920f283",
+      "pointCount": 5100,
+      "status": "updated"
+    },
+    {
+      "roadSn": 13,
+      "bikeGoKrName": "제주환상자전거길",
+      "dbName": "제주환상자전거길",
+      "dbId": "b415d3d7-e60b-426f-8823-47c243a48375",
+      "pointCount": 4145,
+      "status": "updated"
+    },
+    {
+      "roadSn": 14,
+      "bikeGoKrName": "강릉 경포호 산소길",
+      "dbName": "강릉 경포호 산소길",
+      "dbId": "5fd74958-a4f8-46d4-a52f-5a4420d810f1",
+      "pointCount": 131,
+      "status": "updated"
+    },
+    {
+      "roadSn": 15,
+      "bikeGoKrName": "화천 파로호 100리 산소길",
+      "dbName": "화천 파로호 100리 산소길",
+      "dbId": "995776d7-391d-47b6-9efe-0e8236ec0fad",
+      "pointCount": 307,
+      "status": "updated"
+    },
+    {
+      "roadSn": 16,
+      "bikeGoKrName": "옹진 덕적도 자전거길",
+      "dbName": "옹진 덕적도 자전거길",
+      "dbId": "c0640275-1f7f-411a-899d-b9ec2ab6d4f9",
+      "pointCount": 415,
+      "status": "updated"
+    },
+    {
+      "roadSn": 18,
+      "bikeGoKrName": "옥천 향수 100리길",
+      "dbName": "옥천 향수 100리길",
+      "dbId": "55a97f0e-d5c2-40ba-bf9b-62af3e590a57",
+      "pointCount": 403,
+      "status": "updated"
+    },
+    {
+      "roadSn": 19,
+      "bikeGoKrName": "정읍 정읍천 자전거길",
+      "dbName": "정읍 정읍천 자전거길",
+      "dbId": "6784d853-29fc-40f0-b421-2bd0cb81dfc2",
+      "pointCount": 144,
+      "status": "updated"
+    },
+    {
+      "roadSn": 20,
+      "bikeGoKrName": "신안 증도 자전거섬",
+      "dbName": "신안 증도 자전거섬",
+      "dbId": "3672b0a7-4030-4afd-a525-590e9dc70bb7",
+      "pointCount": 413,
+      "status": "updated"
+    },
+    {
+      "roadSn": 21,
+      "bikeGoKrName": "경주 역사탐방 자전거길",
+      "dbName": "경주 역사탐방 자전거길",
+      "dbId": "14828bbb-bb43-4d90-beba-5c3a126df764",
+      "pointCount": 460,
+      "status": "updated"
+    },
+    {
+      "roadSn": 23,
+      "bikeGoKrName": "제주 해맞이 해안로",
+      "dbName": null,
+      "dbId": null,
+      "pointCount": 322,
+      "status": "no_match"
+    },
+    {
+      "roadSn": 24,
+      "bikeGoKrName": "강화 갯벌 자전거길",
+      "dbName": "강화 갯벌 자전거길",
+      "dbId": "959a012c-26e4-4f51-9c8f-6d219a866e5b",
+      "pointCount": 89,
+      "status": "updated"
+    },
+    {
+      "roadSn": 25,
+      "bikeGoKrName": "영흥도 십리포 자전거길",
+      "dbName": "영흥도 십리포 자전거길",
+      "dbId": "795d86ec-6fa4-4252-afa7-e2bba197b0e5",
+      "pointCount": 46,
+      "status": "updated"
+    },
+    {
+      "roadSn": 26,
+      "bikeGoKrName": "군산 선유도 자전거길",
+      "dbName": "군산 선유도 자전거길",
+      "dbId": "6902c400-8df5-4e7d-bc94-7aec92189ef6",
+      "pointCount": 52,
+      "status": "updated"
+    },
+    {
+      "roadSn": 27,
+      "bikeGoKrName": "여수 거문도 자전거길",
+      "dbName": "여수 거문도 자전거길",
+      "dbId": "d255465a-1778-4a9e-b89c-90b94e11d8c6",
+      "pointCount": 86,
+      "status": "updated"
+    },
+    {
+      "roadSn": 28,
+      "bikeGoKrName": "고흥 자전거길",
+      "dbName": null,
+      "dbId": null,
+      "pointCount": 83,
+      "status": "no_match"
+    },
+    {
+      "roadSn": 29,
+      "bikeGoKrName": "완도 수목원 자전거길",
+      "dbName": null,
+      "dbId": null,
+      "pointCount": 76,
+      "status": "no_match"
+    },
+    {
+      "roadSn": 30,
+      "bikeGoKrName": "완도 청산도 자전거길",
+      "dbName": "완도 청산도 자전거길",
+      "dbId": "6e89e945-cf2d-4797-81ca-f754ca51a647",
+      "pointCount": 65,
+      "status": "updated"
+    },
+    {
+      "roadSn": 31,
+      "bikeGoKrName": "완도 생일도 자전거길",
+      "dbName": null,
+      "dbId": null,
+      "pointCount": 79,
+      "status": "no_match"
+    },
+    {
+      "roadSn": 32,
+      "bikeGoKrName": "진도 자전거길",
+      "dbName": "진도 자전거길",
+      "dbId": "f060d75a-4fd2-4964-90b7-8d91dc493e37",
+      "pointCount": 26,
+      "status": "updated"
+    },
+    {
+      "roadSn": 33,
+      "bikeGoKrName": "신안 자은도 자전거길",
+      "dbName": "신안 자은도 자전거길",
+      "dbId": "498a8390-abbf-4f1d-a35a-aaa716c1bceb",
+      "pointCount": 107,
+      "status": "updated"
+    },
+    {
+      "roadSn": 34,
+      "bikeGoKrName": "신안 임자도 자전거길",
+      "dbName": "신안 임자도 자전거길",
+      "dbId": "742e2b0a-86d6-4bb1-bc6a-21c77397eb4b",
+      "pointCount": 107,
+      "status": "updated"
+    },
+    {
+      "roadSn": 35,
+      "bikeGoKrName": "신안 증도 자전거길",
+      "dbName": "신안 증도 자전거길",
+      "dbId": "c3369402-d738-4644-b6d6-1223ba06f656",
+      "pointCount": 72,
+      "status": "updated"
+    },
+    {
+      "roadSn": 36,
+      "bikeGoKrName": "보령 원산도 자전거길",
+      "dbName": "보령 원산도 자전거길",
+      "dbId": "f370af03-4fed-4321-8ebd-18b4c030ff2a",
+      "pointCount": 186,
+      "status": "updated"
+    },
+    {
+      "roadSn": 39,
+      "bikeGoKrName": "덕적도 갈맷길 자전거길",
+      "dbName": "덕적도 갈맷길 자전거길",
+      "dbId": "185edca0-8caa-4775-ab67-c50bdd4c7741",
+      "pointCount": 155,
+      "status": "updated"
+    },
+    {
+      "roadSn": 41,
+      "bikeGoKrName": "울릉도 자전거길",
+      "dbName": "울릉도 자전거길",
+      "dbId": "7a781346-e2d1-4600-830c-dd098688451d",
+      "pointCount": 107,
+      "status": "updated"
+    },
+    {
+      "roadSn": 42,
+      "bikeGoKrName": "사천 신수도 자전거길",
+      "dbName": null,
+      "dbId": null,
+      "pointCount": 49,
+      "status": "no_match"
+    },
+    {
+      "roadSn": 43,
+      "bikeGoKrName": "남해 자전거길",
+      "dbName": "남해 자전거길",
+      "dbId": "25ff66fc-1dbc-440c-bfb6-9d16ddc63206",
+      "pointCount": 77,
+      "status": "updated"
+    },
+    {
+      "roadSn": 44,
+      "bikeGoKrName": "거제 자전거길",
+      "dbName": "거제 자전거길",
+      "dbId": "e8a83e5c-81d7-47b1-ad8a-09f24acaa3d5",
+      "pointCount": 31,
+      "status": "updated"
+    },
+    {
+      "roadSn": 45,
+      "bikeGoKrName": "제주 우도 자전거길",
+      "dbName": "제주 우도 자전거길",
+      "dbId": "8ed15c4a-3bed-4066-8539-cf7fb59b207b",
+      "pointCount": 8,
+      "status": "updated"
+    },
+    {
+      "roadSn": 46,
+      "bikeGoKrName": "제주 가파도 자전거길",
+      "dbName": "제주 가파도 자전거길",
+      "dbId": "f33b6aa2-9e84-44af-b788-4322c68df453",
+      "pointCount": 11,
+      "status": "updated"
+    }
+  ]
+}

@@ -9,6 +9,7 @@
     "parse": "tsx src/index.ts parse",
     "upload": "tsx src/index.ts upload",
     "run": "tsx src/index.ts run",
+    "update-geometry": "tsx src/scripts/crawl-bike-go-kr-update-geometry.ts",
     "dev": "tsx src/index.ts"
   },
   "dependencies": {
@@ -16,6 +17,7 @@
     "cheerio": "^1.0.0",
     "dotenv": "^16.4.5",
     "gpxparser": "^3.0.8",
+    "pg": "^8.20.0",
     "puppeteer": "^23.0.0"
   },
   "devDependencies": {
